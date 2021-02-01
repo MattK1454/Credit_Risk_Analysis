@@ -99,6 +99,7 @@ The balanced accuracy score of the Balanced Random Forest Classifier algorithm i
 ![Balanced Random Forest Classifier matrix scores](https://github.com/MattK1454/Credit_Risk_Analysis/blob/main/Resources/images/balanced_random_forest_matrix_scores.png)
 
 The scores for the Balanced Random Forest Classifier method are:
+	
 	- pre: high_risk = 3%; low_risk = 100%
 	- rec: high_risk = 70%; low_risk = 87%
 	- f1: high_risk = 6%; low_risk = 93%
@@ -116,9 +117,10 @@ The balanced accuracy score of the Easy Ensemble Classifier algorithm is: 93.17%
 ![Easy Ensemble Classifier matrix scores](https://github.com/MattK1454/Credit_Risk_Analysis/blob/main/Resources/images/easy_ensemble_matrix_scores.png)
 
 The scores for the Easy Ensemble Classifier method are:
-	- pre: high_risk = 9%; low_risk = 100%
-	- rec: high_risk = 92%; low_risk = 94%
-	- f1: high_risk = 16%; low_risk = 97%
+
+- pre: high_risk = 9%; low_risk = 100%
+- rec: high_risk = 92%; low_risk = 94%
+- f1: high_risk = 16%; low_risk = 97%
 	
 In the Easy Ensemble Classifier model, the precision of determining the 'high_risk' applicants is 9%. The sensitivity to picking up a 
 'high_risk' applicant is 92%. The f1 for high_risk applicants is 16%. In the Easy Ensemble Classifier model, the precision of determining the 'low_risk' 
