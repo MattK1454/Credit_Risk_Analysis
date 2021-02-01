@@ -10,7 +10,15 @@ will best predict a loan applicant as being high or low risk for a loan.
 It will be of benefit to outline some of the terms used to evaluate these models prior to the start of the analysis.
  - Balanced accuracy score: A measure of how well the trained model did in predicitin classification outcomes already provided in the dataset. The higher the score
  the better the model at using the input features to classify the outcomes.
- - 
+ - classification report:
+ 	- The "pre" stands for precision of the model in regards to the possible outcome (classifying a loan applicant as 'high_risk' or 'low_risk').
+	- "rec" stands for recall or sensitivity of the test to determine possible outcome.
+	- f1 score is measure of the model's balance between precision and recall.
+ - In the top half of every scoring snapshot, there is a confusion matrix present to provided the raw values for: 
+ 	- True positve (top-left)
+	- False Negative (top-right)
+	- False Positive (bottom-left)
+	- True Negative (bottom-right)
 
 - Naive Oversampling
 
