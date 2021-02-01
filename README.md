@@ -31,6 +31,7 @@ Here the balanced accuracy score of the Naive Oversampling is: 67.70%.
 ![Naive Oversampling matrix scores](https://github.com/MattK1454/Credit_Risk_Analysis/blob/main/Resources/images/naive_over_sampling_matix_scores.png)
 
 The scores for the Naive Oversampling method are:
+	
 	- pre: high_risk = 1%; low_risk = 100%
 	- rec: high_risk = 76%; low_risk = 59%
 	- f1: high_risk = 2%; low_risk = 76%
@@ -48,6 +49,7 @@ The balanced accuracy score of the SMOTE algorithm is: 66.24%
 ![SMOTE matrix scores](https://github.com/MattK1454/Credit_Risk_Analysis/blob/main/Resources/images/SMOTE_matrix_scores.png)
 
 The scores for the SMOTE method are:
+	
 	- pre: high_risk = 1%; low_risk = 100%
 	- rec: high_risk = 63%; low_risk = 69%
 	- f1: high_risk = 2%; low_risk = 82%
@@ -65,6 +67,7 @@ The balanced accuracy score of the Cluster Centroids algorithm is: 54.42%
 ![Cluster Centroids matrix scores](https://github.com/MattK1454/Credit_Risk_Analysis/blob/main/Resources/images/clustercentroids_under_sampling_matrix_scores.png)
 
 The scores for the Cluster Centroids method are:
+	
 	- pre: high_risk = 1%; low_risk = 100%
 	- rec: high_risk = 76%; low_risk = 42%
 	- f1: high_risk = 1%; low_risk = 59%
@@ -82,6 +85,7 @@ The balanced accuracy score of the SMOTEEN algorithm is: 64.89%
 ![SMOTEEN matrix scores](https://github.com/MattK1454/Credit_Risk_Analysis/blob/main/Resources/images/SMOTEENN_matrix_scores.png)
 
 The scores for the SMOTEEN method are:
+	
 	- pre: high_risk = 1%; low_risk = 100%
 	- rec: high_risk = 70%; low_risk = 59%
 	- f1: high_risk = 2%; low_risk = 75%
@@ -118,9 +122,9 @@ The balanced accuracy score of the Easy Ensemble Classifier algorithm is: 93.17%
 
 The scores for the Easy Ensemble Classifier method are:
 
-- pre: high_risk = 9%; low_risk = 100%
-- rec: high_risk = 92%; low_risk = 94%
-- f1: high_risk = 16%; low_risk = 97%
+	- pre: high_risk = 9%; low_risk = 100%
+	- rec: high_risk = 92%; low_risk = 94%
+	- f1: high_risk = 16%; low_risk = 97%
 	
 In the Easy Ensemble Classifier model, the precision of determining the 'high_risk' applicants is 9%. The sensitivity to picking up a 
 'high_risk' applicant is 92%. The f1 for high_risk applicants is 16%. In the Easy Ensemble Classifier model, the precision of determining the 'low_risk' 
